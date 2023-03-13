@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include<myheader.h>
+#include"myheader.h"
 
-float temp(float *b)
+int temp(float *b)
 {
     // float b = *a;
     printf("\ntemp:-%f\n",*b);
@@ -41,5 +41,5 @@ float temp(float *b)
       printf("Today's weather is fog\n");
     }
 
-    return;
+    return 0;
 }

@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<myheader.h>
+#include"myheader.h"
 
 
 
@@ -13,7 +13,7 @@ int main(){
     
 
     
-    
+    return 0;
 }
 
 

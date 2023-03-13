@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<myheader.h>
+#include"myheader.h"
 
 
 struct Weather
@@ -64,5 +64,5 @@ int data(){
     printf("\n%.3f",a);
     temp(&a);
     
-return;
+return 0;
 }
