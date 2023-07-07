@@ -1,28 +1,16 @@
 # Phytec-codes
 All codes are uploaded here
 # Moodule 1 
-Basic C Brush-Up Datatypes, Function, Arrays, Pointers, Storage Classes,
-File Handling, Dynamic Memory
-Advance C Programming Type Casting
-Typedefs
-Enums
-Type Qualifiers
-Bit Fields
-Function Pointers
-Header Files
-Command Line Arguments
-Variable Arguments
-Error Handling
-Other C Libraries
-Hardware Programming Accessing Parallel Port, Accessing Serial Port
-Accessing USB Port, Accessing Network Port (Ethernet / Wireless )
-Accessing Bluetooth,
-Accessing Keyboard,
-Accessing Mouse
-Interfacing Hardware
-Modules
-GSM, GPS, Bluetooth, Zigbee, Wifi
-Smart Card Reader, RF-ID Reader, Magnetic Card Reader(ATM Cards)
-Fingerprint Reader,
-Sensor Module (Temp /Humiditiy /Accelero /Gyro )
-BarCode Reader, Printer, Camera
+
+![M1](https://github.com/Deepak-Beniya/Phytec-codes/assets/125279401/f8cbf888-ef7b-46e0-a273-4dfdae84d978)
+
+
+![M2](https://github.com/Deepak-Beniya/Phytec-codes/assets/125279401/b3f47a70-53da-4f39-8966-a4b563766270)
+
+
+![M3](https://github.com/Deepak-Beniya/Phytec-codes/assets/125279401/89b151e2-4b8e-464e-975c-68aa5e149f5f)
+![M3-2](https://github.com/Deepak-Beniya/Phytec-codes/assets/125279401/b3cbb9b6-a51f-41ac-9e24-0865b0352c65)
+
+
+![M4](https://github.com/Deepak-Beniya/Phytec-codes/assets/125279401/153b5245-9ca5-4500-bb49-b0169a97ceff)
+![M4-2](https://github.com/Deepak-Beniya/Phytec-codes/assets/125279401/b5171faa-bc2b-4708-9c14-f04a20046358)
