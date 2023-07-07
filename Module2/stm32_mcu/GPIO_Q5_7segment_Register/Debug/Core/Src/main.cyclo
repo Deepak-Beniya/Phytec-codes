@@ -1,0 +1,7 @@
+main.c:11:6:delay	3
+main.c:20:6:display0	1
+main.c:40:6:display1	1
+main.c:49:6:display2	1
+main.c:58:6:display3	1
+main.c:63:6:display4	1
+main.c:72:5:main	1

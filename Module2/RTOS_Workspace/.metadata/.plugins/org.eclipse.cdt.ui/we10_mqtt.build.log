@@ -1,0 +1,17 @@
+17:02:24 **** Incremental Build of configuration Debug for project we10_mqtt ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "we10_mqtt.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vasundhra/Downloads/we10_mqtt/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="we10_mqtt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: we10_mqtt.elf
+ 
+arm-none-eabi-size   we10_mqtt.elf 
+arm-none-eabi-objdump -h -S  we10_mqtt.elf  > "we10_mqtt.list"
+   text	   data	    bss	    dec	    hex	filename
+  13168	    120	   1728	  15016	   3aa8	we10_mqtt.elf
+Finished building: default.size.stdout
+ 
+Finished building: we10_mqtt.list
+ 
+
+17:02:24 Build Finished. 0 errors, 0 warnings. (took 316ms)
+

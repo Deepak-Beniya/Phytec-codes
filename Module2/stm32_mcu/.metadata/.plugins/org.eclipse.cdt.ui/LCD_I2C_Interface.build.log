@@ -1,0 +1,10 @@
+20:50:03 **** Build of configuration Debug for project LCD_I2C_Interface ****
+make -j12 all 
+arm-none-eabi-size   LCD_I2C_Interface.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12784	     36	   1732	  14552	   38d8	LCD_I2C_Interface.elf
+Finished building: default.size.stdout
+ 
+
+20:50:03 Build Finished. 0 errors, 0 warnings. (took 120ms)
+

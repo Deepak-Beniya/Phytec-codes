@@ -1,0 +1,15 @@
+RFID.c:32:6:spi_cs_rfid_write	2
+RFID.c:44:9:rc522_regRead8	1
+RFID.c:58:6:rc522_regWrite8	1
+RFID.c:69:6:rc522_setBit	1
+RFID.c:77:6:rc522_clearBit	1
+RFID.c:85:6:rc522_reset	1
+RFID.c:93:6:rc522_antennaON	2
+RFID.c:106:6:rc522_checkCard	2
+RFID.c:124:6:rc522_request	3
+RFID.c:140:6:rc522_toCard	18
+RFID.c:241:6:rc522_antiColl	4
+RFID.c:272:6:rc522_halt	1
+RFID.c:284:6:rc522_calculateCRC	4
+RFID.c:313:6:rc522_compareIds	3
+RFID.c:326:6:rc522_init	3

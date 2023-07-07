@@ -1,0 +1,7 @@
+main.c:59:6:Led_Toggleon	1
+main.c:68:6:Led_Toggleoff	1
+main.c:82:5:main	5
+main.c:157:6:SystemClock_Config	3
+main.c:205:13:MX_USART2_UART_Init	2
+main.c:238:13:MX_GPIO_Init	1
+main.c:278:6:Error_Handler	1

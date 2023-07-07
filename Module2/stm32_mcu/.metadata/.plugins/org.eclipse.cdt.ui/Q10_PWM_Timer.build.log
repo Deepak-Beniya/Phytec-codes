@@ -1,0 +1,10 @@
+20:26:13 **** Incremental Build of configuration Debug for project Q10_PWM_Timer ****
+make -j12 all 
+arm-none-eabi-size   Q10_PWM_Timer.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11148	     20	   1644	  12812	   320c	Q10_PWM_Timer.elf
+Finished building: default.size.stdout
+ 
+
+20:26:13 Build Finished. 0 errors, 0 warnings. (took 181ms)
+

@@ -1,0 +1,3 @@
+AHT25.c:16:6:AHT25_init	1
+AHT25.c:25:6:AHT25_reset	1
+AHT25.c:34:6:AHT25_read_data	4

@@ -1,0 +1,17 @@
+11:42:23 **** Incremental Build of configuration Debug for project Q10_Timer_Input_Capture ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Q10_Timer_Input_Capture.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/Q10_Timer_Input_Capture/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Q10_Timer_Input_Capture.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Q10_Timer_Input_Capture.elf
+ 
+arm-none-eabi-size   Q10_Timer_Input_Capture.elf 
+arm-none-eabi-objdump -h -S  Q10_Timer_Input_Capture.elf  > "Q10_Timer_Input_Capture.list"
+   text	   data	    bss	    dec	    hex	filename
+  11024	     20	   1644	  12688	   3190	Q10_Timer_Input_Capture.elf
+Finished building: default.size.stdout
+ 
+Finished building: Q10_Timer_Input_Capture.list
+ 
+
+11:42:23 Build Finished. 0 errors, 0 warnings. (took 325ms)
+

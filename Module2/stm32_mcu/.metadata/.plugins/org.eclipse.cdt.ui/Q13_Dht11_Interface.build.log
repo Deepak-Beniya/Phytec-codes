@@ -1,0 +1,10 @@
+10:07:30 **** Incremental Build of configuration Debug for project Q13_Dht11_Interface ****
+make -j12 all 
+arm-none-eabi-size   Q13_Dht11_Interface.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11772	     20	   1668	  13460	   3494	Q13_Dht11_Interface.elf
+Finished building: default.size.stdout
+ 
+
+10:07:31 Build Finished. 0 errors, 0 warnings. (took 175ms)
+

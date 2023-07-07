@@ -1,0 +1,10 @@
+17:33:22 **** Incremental Build of configuration Debug for project GPIO_Q6_16_2_LCD_Interface_Register ****
+make -j12 all 
+arm-none-eabi-size   GPIO_Q6_16_2_LCD_Interface_Register.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2348	     20	   1572	   3940	    f64	GPIO_Q6_16_2_LCD_Interface_Register.elf
+Finished building: default.size.stdout
+ 
+
+17:33:22 Build Finished. 0 errors, 0 warnings. (took 178ms)
+

@@ -1,0 +1,16 @@
+11:56:51 **** Build of configuration Debug for project OLED_LCD_Interface ****
+make -j12 all 
+arm-none-eabi-gcc -o "OLED_LCD_Interface.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vasundhra/deepak/Workspace/Module2/OLED_LCD_Interface/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="OLED_LCD_Interface.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: OLED_LCD_Interface.elf
+ 
+arm-none-eabi-size   OLED_LCD_Interface.elf 
+arm-none-eabi-objdump -h -S  OLED_LCD_Interface.elf  > "OLED_LCD_Interface.list"
+   text	   data	    bss	    dec	    hex	filename
+  27536	     28	   2756	  30320	   7670	OLED_LCD_Interface.elf
+Finished building: default.size.stdout
+ 
+Finished building: OLED_LCD_Interface.list
+ 
+
+11:56:51 Build Finished. 0 errors, 0 warnings. (took 314ms)
+

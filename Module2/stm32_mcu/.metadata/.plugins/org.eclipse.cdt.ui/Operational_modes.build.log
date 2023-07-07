@@ -1,0 +1,17 @@
+15:42:53 **** Incremental Build of configuration Debug for project Operational_modes ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc -o "Operational_modes.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/Operational_modes/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Operational_modes.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Operational_modes.elf
+ 
+arm-none-eabi-size   Operational_modes.elf 
+arm-none-eabi-objdump -h -S  Operational_modes.elf  > "Operational_modes.list"
+   text	   data	    bss	    dec	    hex	filename
+  11672	    120	   1656	  13448	   3488	Operational_modes.elf
+Finished building: default.size.stdout
+ 
+Finished building: Operational_modes.list
+ 
+
+15:42:53 Build Finished. 0 errors, 0 warnings. (took 274ms)
+

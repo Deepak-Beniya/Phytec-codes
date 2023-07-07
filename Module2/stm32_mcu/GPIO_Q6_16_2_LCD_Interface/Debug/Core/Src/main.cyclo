@@ -1,0 +1,9 @@
+main.c:63:6:print	9
+main.c:139:6:lcd_cmd	1
+main.c:149:6:lcd_data	1
+main.c:159:6:lcd_init	1
+main.c:166:6:lcd_display	2
+main.c:179:5:main	1
+main.c:225:6:SystemClock_Config	3
+main.c:273:13:MX_GPIO_Init	1
+main.c:347:6:Error_Handler	1

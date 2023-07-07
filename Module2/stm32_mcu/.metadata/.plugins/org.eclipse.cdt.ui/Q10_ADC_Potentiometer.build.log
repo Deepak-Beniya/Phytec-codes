@@ -1,0 +1,10 @@
+12:39:56 **** Incremental Build of configuration Debug for project Q10_ADC_Potentiometer ****
+make -j12 all 
+arm-none-eabi-size   Q10_ADC_Potentiometer.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8976	     20	   1644	  10640	   2990	Q10_ADC_Potentiometer.elf
+Finished building: default.size.stdout
+ 
+
+12:39:56 Build Finished. 0 errors, 0 warnings. (took 196ms)
+

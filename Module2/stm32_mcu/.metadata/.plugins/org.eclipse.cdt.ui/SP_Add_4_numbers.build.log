@@ -1,0 +1,20 @@
+13:02:56 **** Incremental Build of configuration Debug for project SP_Add_4_numbers ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c:26:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   26 | add_func(int a,int b,int c,int d){
+      | ^~~~~~~~
+arm-none-eabi-gcc -o "SP_Add_4_numbers.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/SP_Add_4_numbers/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SP_Add_4_numbers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SP_Add_4_numbers.elf
+ 
+arm-none-eabi-size   SP_Add_4_numbers.elf 
+arm-none-eabi-objdump -h -S  SP_Add_4_numbers.elf  > "SP_Add_4_numbers.list"
+   text	   data	    bss	    dec	    hex	filename
+   5344	    108	   1588	   7040	   1b80	SP_Add_4_numbers.elf
+Finished building: default.size.stdout
+ 
+Finished building: SP_Add_4_numbers.list
+ 
+
+13:02:57 Build Finished. 0 errors, 1 warnings. (took 162ms)
+

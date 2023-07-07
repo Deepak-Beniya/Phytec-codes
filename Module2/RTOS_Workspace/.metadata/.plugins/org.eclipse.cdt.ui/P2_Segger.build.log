@@ -1,0 +1,10 @@
+13:01:17 **** Incremental Build of configuration Debug for project P2_Segger ****
+make -j12 all 
+arm-none-eabi-size   P2_Segger.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24940	    128	  84584	 109652	  1ac54	P2_Segger.elf
+Finished building: default.size.stdout
+ 
+
+13:01:17 Build Finished. 0 errors, 0 warnings. (took 173ms)
+

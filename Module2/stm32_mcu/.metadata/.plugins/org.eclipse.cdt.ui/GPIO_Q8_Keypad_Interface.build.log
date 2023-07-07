@@ -1,0 +1,10 @@
+19:04:50 **** Incremental Build of configuration Debug for project GPIO_Q8_Keypad_Interface ****
+make -j12 all 
+arm-none-eabi-size   GPIO_Q8_Keypad_Interface.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4676	    108	   1588	   6372	   18e4	GPIO_Q8_Keypad_Interface.elf
+Finished building: default.size.stdout
+ 
+
+19:04:50 Build Finished. 0 errors, 0 warnings. (took 180ms)
+

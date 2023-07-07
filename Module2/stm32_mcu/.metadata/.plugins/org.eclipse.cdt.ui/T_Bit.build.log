@@ -1,0 +1,21 @@
+16:13:56 **** Incremental Build of configuration Debug for project T_Bit ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:55:9: warning: assignment to 'void (*)(void)' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   55 |   funptr= 8000205;
+      |         ^
+arm-none-eabi-gcc -o "T_Bit.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/T_Bit/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="T_Bit.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: T_Bit.elf
+ 
+arm-none-eabi-size   T_Bit.elf 
+arm-none-eabi-objdump -h -S  T_Bit.elf  > "T_Bit.list"
+   text	   data	    bss	    dec	    hex	filename
+   3868	    108	   1588	   5564	   15bc	T_Bit.elf
+Finished building: default.size.stdout
+ 
+Finished building: T_Bit.list
+ 
+
+16:13:56 Build Finished. 0 errors, 1 warnings. (took 167ms)
+

@@ -1,0 +1,15 @@
+main.c:17:6:display0	1
+main.c:27:6:display1	1
+main.c:39:6:display2	1
+main.c:50:6:display3	1
+main.c:61:6:display4	1
+main.c:73:6:display5	1
+main.c:84:6:display6	1
+main.c:95:6:display7	1
+main.c:106:6:display8	1
+main.c:117:6:display9	1
+main.c:179:5:main	1
+main.c:246:6:SystemClock_Config	3
+main.c:294:13:MX_USART2_UART_Init	2
+main.c:327:13:MX_GPIO_Init	1
+main.c:387:6:Error_Handler	1

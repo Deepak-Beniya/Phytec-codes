@@ -1,0 +1,10 @@
+19:12:59 **** Incremental Build of configuration Debug for project Q12_LM35_LCD_Interface ****
+make -j12 all 
+arm-none-eabi-size   Q12_LM35_LCD_Interface.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14716	    120	   1688	  16524	   408c	Q12_LM35_LCD_Interface.elf
+Finished building: default.size.stdout
+ 
+
+19:12:59 Build Finished. 0 errors, 0 warnings. (took 178ms)
+

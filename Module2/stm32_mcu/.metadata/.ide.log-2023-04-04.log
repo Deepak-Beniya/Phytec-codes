@@ -1,0 +1,14 @@
+2023-04-04 12:49:22,984 [INFO] MainUpdater:2854 - connection check result : 10
+2023-04-04 12:49:23,089 [INFO] McuFinderGlobals:66 - Set McuFinderConnectedMode to true
+2023-04-04 12:49:23,090 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-04-04 12:49:23,090 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2023-04-04 12:49:23,606 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-04-04 12:49:23,607 [INFO] DetailPanel:341 - Set advertising image to /home/vasundhra/STM32Cube/Repository//en.prom-stm32h5-mcu-finder.jpg
+2023-04-04 12:49:26,344 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2023-04-04 12:49:26,393 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-04-04 12:49:26,393 [INFO] DetailPanel:341 - Set advertising image to /home/vasundhra/STM32Cube/Repository//en.prom-stm32h5-mcu-finder.jpg
+2023-04-04 12:50:30,271 [INFO] McuFinderGlobals:66 - Set McuFinderConnectedMode to true
+2023-04-04 12:50:30,274 [INFO] ApiDb:448 - Save user favorites file /home/vasundhra/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-04-04 12:50:30,274 [INFO] ApiDb:452 - User favorites MCUs=[]
+2023-04-04 12:50:30,275 [INFO] ApiDb:448 - Save user favorites file /home/vasundhra/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2023-04-04 12:50:30,275 [INFO] ApiDb:452 - User favorites Boards=[NUCLEO-F446RE]

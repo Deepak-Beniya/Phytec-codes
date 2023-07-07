@@ -1,0 +1,27 @@
+"Source:","/home/vasundhra/deepak/Workspace/Module2/kicad/Tutorials/tut1/tut1.kicad_sch"
+"Date:","Wed Mar 15 11:07:58 2023"
+"Tool:","Eeschema 6.0.2+dfsg-1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","6"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","C1","C_Polarized","Device:C_Polarized","Capacitor_SMD:CP_Elec_4x3","~"
+"","","D1","AC-DC","Device:D_Bridge_+-AA","Diode_THT:Diode_Bridge_15.1x15.1x6.3mm_P10.9mm","~"
+"","","R1","1K","Device:R","","~"
+"","","RV1","Varistor","Device:Varistor","Varistor:RV_Disc_D7mm_W3.4mm_P5mm","~"
+"","","T1","230v-12v","Device:Transformer_1P_1S","Diode_SMD:Diode_Bridge_Vishay_DFSFlat","~"
+"","","U1","KA78M05_TO252","Regulator_Linear:KA78M05_TO252","Package_TO_SOT_SMD:TO-252-2","https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","1","C1","C_Polarized","Device:C_Polarized","Capacitor_SMD:CP_Elec_4x3","~"
+"2","1","D1","AC-DC","Device:D_Bridge_+-AA","Diode_THT:Diode_Bridge_15.1x15.1x6.3mm_P10.9mm","~"
+"3","1","R1","1K","Device:R","","~"
+"4","1","RV1","Varistor","Device:Varistor","Varistor:RV_Disc_D7mm_W3.4mm_P5mm","~"
+"5","1","T1","230v-12v","Device:Transformer_1P_1S","Diode_SMD:Diode_Bridge_Vishay_DFSFlat","~"
+"6","1","U1","KA78M05_TO252","Regulator_Linear:KA78M05_TO252","Package_TO_SOT_SMD:TO-252-2","https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF"

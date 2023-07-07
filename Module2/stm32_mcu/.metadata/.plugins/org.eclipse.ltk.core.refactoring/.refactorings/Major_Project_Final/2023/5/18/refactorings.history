@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;OLED_LCD_Interface/Core/Src/ssd1306.h&apos; to &apos;ssd1306.c&apos;" description="Rename resource &apos;ssd1306.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/ssd1306.h" name="ssd1306.c" stamp="1683370496562" updateReferences="true"/>
+</session>

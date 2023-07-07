@@ -1,0 +1,10 @@
+15:44:09 **** Incremental Build of configuration Debug for project Thread_Handler_Mode ****
+make -j12 all 
+arm-none-eabi-size   Thread_Handler_Mode.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3992	    108	   1588	   5688	   1638	Thread_Handler_Mode.elf
+Finished building: default.size.stdout
+ 
+
+15:44:09 Build Finished. 0 errors, 0 warnings. (took 119ms)
+

@@ -1,0 +1,1624 @@
+18:16:06 **** Build of configuration Debug for project RTC_LCD ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:24:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:108:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:62:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:81:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:36:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:97:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:47:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:76:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:23:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:108:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:76:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:47:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:62:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:81:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:36:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:97:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:23:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:39:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:39:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:108:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:24:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:76:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:47:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:23:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:62:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:97:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:36:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:67:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:81:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:67:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:108:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:76:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:23:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:62:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:47:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:36:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:97:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:81:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:24:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:39:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:67:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:24:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:39:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:67:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:86:
+../Drivers/CMSIS/Include/cmsis_gcc.h:82:36: error: unknown type name 'uint_t'
+   82 |   __PACKED_STRUCT T_UINT16_WRITE { uint_t v; };
+      |                                    ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:90:35: error: unknown type name 'uint_t'
+   90 |   __PACKED_STRUCT T_UINT16_READ { uint_t v; };
+      |                                   ^~~~~~
+In file included from ../Drivers/CMSIS/Include/cmsis_compiler.h:48,
+                 from ../Drivers/CMSIS/Include/core_cm4.h:162,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:86:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:22: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1046:47: error: unknown type name 'uint_t'
+ 1046 | __STATIC_FORCEINLINE uint_t __LDREXH(volatile uint_t *addr)
+      |                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDREXH':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:13: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/CMSIS/Include/cmsis_gcc.h:1058:20: error: expected ')' before 'result'
+ 1058 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:40: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                        ^~~~~~
+      |                                        uint8_t
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:108:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1102:63: error: unknown type name 'uint_t'
+ 1102 | __STATIC_FORCEINLINE uint32_t __STREXH(uint_t value, volatile uint_t *addr)
+      |                                                               ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:22: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                      ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h:1222:46: error: unknown type name 'uint_t'
+ 1222 | __STATIC_FORCEINLINE uint_t __LDRHT(volatile uint_t *ptr)
+      |                                              ^~~~~~
+../Drivers/CMSIS/Include/cmsis_gcc.h: In function '__LDRHT':
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:13: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |             ^~~~~~
+      |             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1234:20: error: expected ')' before 'result'
+ 1234 |    return ((uint_t) result);    /* Add explicit type cast here */
+      |           ~        ^~~~~~~
+      |                    )
+../Drivers/CMSIS/Include/cmsis_gcc.h: At top level:
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:76:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:35: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                   ^~~~~~
+      |                                   uint8_t
+../Drivers/CMSIS/Include/cmsis_gcc.h:1271:58: error: unknown type name 'uint_t'
+ 1271 | __STATIC_FORCEINLINE void __STRHT(uint_t value, volatile uint_t *ptr)
+      |                                                          ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:23:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:62:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:47:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:97:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:140,
+                 from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:86:
+../Drivers/CMSIS/Include/core_cm4.h:816:11: error: unknown type name 'uint_t'
+  816 |     __OM  uint_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+      |           ^~~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:81:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:36:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:24:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:108:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:39:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:24:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:67:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:23:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:67:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o] Error 1
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:62:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:107:8: error: unknown type name 'uint_t'
+  107 | static uint_t           FLASH_OB_GetWRP(void);
+      |        ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'HAL_FLASHEx_AdvOBGetConfig':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:434:33: error: unknown type name 'uint_t'
+  434 |   pAdvOBInit->Sectors = (*(__IO uint_t *)(OPTCR_BYTE2_ADDRESS));
+      |                                 ^~~~~~
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:81:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_OB_EnableWRP':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1043:12: error: unknown type name 'uint_t'
+ 1043 |     *(__IO uint_t *)OPTCR_BYTE2_ADDRESS &= (~WRPSector);
+      |            ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_OB_DisableWRP':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1079:12: error: unknown type name 'uint_t'
+ 1079 |     *(__IO uint_t *)OPTCR_BYTE2_ADDRESS |= (uint_t)WRPSector;
+      |            ^~~~~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o] Error 1
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:76:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:47:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:116:56: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  116 | static void   FLASH_Program_HalfWord(uint32_t Address, uint_t Data);
+      |                                                        ^~~~~~
+      |                                                        uint8_t
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:97:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o] Error 1
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o] Error 1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c: In function 'HAL_FLASH_Program':
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:86:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:193:3: error: unknown type name 'uint_t'
+  193 |   uint_t      RESERVED1;  /*!< Reserved, 0x06                                      */
+      |   ^~~~~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o] Error 1
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:36:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o] Error 1
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:278,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:86:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:375:53: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  375 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin)
+      |                                                     ^~~~~~
+      |                                                     uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState);
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                              ^~~~~~
+      |                                              uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:410:45: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  410 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin, GPIO_PinState PinState)
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:237:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin);
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:238:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  238 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin);
+      |                               ^~~~~~
+      |                               uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:29: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  239 | void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin);
+      |                             ^~~~~~
+      |                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:433:46: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  433 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin)
+      |                                              ^~~~~~
+      |                                              uint8_t
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:39:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o] Error 1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1079:45: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1079 |     *(__IO uint_t *)OPTCR_BYTE2_ADDRESS |= (uint_t)WRPSector;
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:177:7: warning: implicit declaration of function 'FLASH_Program_HalfWord'; did you mean 'FLASH_Program_Word'? [-Wimplicit-function-declaration]
+  177 |       FLASH_Program_HalfWord(Address, (uint_t) Data);
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+      |       FLASH_Program_Word
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1079:52: error: expected ';' before 'WRPSector'
+ 1079 |     *(__IO uint_t *)OPTCR_BYTE2_ADDRESS |= (uint_t)WRPSector;
+      |                                                    ^~~~~~~~~
+      |                                                    ;
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_OB_EnablePCROP':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1111:12: error: unknown type name 'uint_t'
+ 1111 |     *(__IO uint_t *)OPTCR_BYTE2_ADDRESS |= (uint_t)Sector;
+      |            ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:177:40: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+  177 |       FLASH_Program_HalfWord(Address, (uint_t) Data);
+      |                                        ^~~~~~
+      |                                        uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:177:47: error: expected ')' before 'Data'
+  177 |       FLASH_Program_HalfWord(Address, (uint_t) Data);
+      |                                               ^~~~~
+      |                                               )
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1111:45: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+ 1111 |     *(__IO uint_t *)OPTCR_BYTE2_ADDRESS |= (uint_t)Sector;
+      |                                             ^~~~~~
+      |                                             uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1111:52: error: expected ';' before 'Sector'
+ 1111 |     *(__IO uint_t *)OPTCR_BYTE2_ADDRESS |= (uint_t)Sector;
+      |                                                    ^~~~~~
+      |                                                    ;
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_OB_DisablePCROP':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1139:12: error: unknown type name 'uint_t'
+ 1139 |     *(__IO uint_t *)OPTCR_BYTE2_ADDRESS &= (~Sector);
+      |            ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: At top level:
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1257:8: error: unknown type name 'uint_t'
+ 1257 | static uint_t FLASH_OB_GetWRP(void)
+      |        ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_OB_GetWRP':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1260:18: error: unknown type name 'uint_t'
+ 1260 |   return (*(__IO uint_t *)(OPTCR_BYTE2_ADDRESS));
+      |                  ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c: In function 'HAL_FLASH_Program_IT':
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:239:38: error: 'uint_t' undeclared (first use in this function); did you mean 'uint8_t'?
+  239 |     FLASH_Program_HalfWord(Address, (uint_t) Data);
+      |                                      ^~~~~~
+      |                                      uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:239:45: error: expected ')' before 'Data'
+  239 |     FLASH_Program_HalfWord(Address, (uint_t) Data);
+      |                                             ^~~~~
+      |                                             )
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1261:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1261 | }
+      | ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c: At top level:
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o] Error 1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:458:57: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  458 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef* GPIOx, uint_t GPIO_Pin)
+      |                                                         ^~~~~~
+      |                                                         uint8_t
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:295,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:330,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:86:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:109:3: error: unknown type name 'uint_t'
+  109 |   uint_t Sectors;        /*!< specifies the sector(s) set for PCROP.
+      |   ^~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:669:54: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  669 | static void FLASH_Program_HalfWord(uint32_t Address, uint_t Data)
+      |                                                      ^~~~~~
+      |                                                      uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:492:31: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  492 | void HAL_GPIO_EXTI_IRQHandler(uint_t GPIO_Pin)
+      |                               ^~~~~~
+      |                               uint8_t
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:507:36: error: unknown type name 'uint_t'; did you mean 'uint8_t'?
+  507 | __weak void HAL_GPIO_EXTI_Callback(uint_t GPIO_Pin)
+      |                                    ^~~~~~
+      |                                    uint8_t
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o] Error 1
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o] Error 1
+make: *** [Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+18:16:06 Build Failed. 313 errors, 2 warnings. (took 393ms)
+

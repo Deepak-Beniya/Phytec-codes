@@ -1,0 +1,10 @@
+11:04:40 **** Incremental Build of configuration Debug for project led_voltage ****
+make -j12 all 
+arm-none-eabi-size   led_voltage.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8592	     20	   1636	  10248	   2808	led_voltage.elf
+Finished building: default.size.stdout
+ 
+
+11:04:40 Build Finished. 0 errors, 0 warnings. (took 173ms)
+

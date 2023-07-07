@@ -1,0 +1,5 @@
+Lcd.c:7:6:print	9
+Lcd.c:83:6:lcd_cmd	1
+Lcd.c:93:6:lcd_data	1
+Lcd.c:103:6:lcd_init	1
+Lcd.c:111:6:lcd_display	2

@@ -1,0 +1,10 @@
+20:13:31 **** Incremental Build of configuration Debug for project ESP8266_WebServer_Interface ****
+make -j12 all 
+arm-none-eabi-size   ESP8266_WebServer_Interface.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18756	    136	   2048	  20940	   51cc	ESP8266_WebServer_Interface.elf
+Finished building: default.size.stdout
+ 
+
+20:13:31 Build Finished. 0 errors, 0 warnings. (took 113ms)
+

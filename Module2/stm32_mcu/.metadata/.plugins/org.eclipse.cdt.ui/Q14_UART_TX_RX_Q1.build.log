@@ -1,0 +1,10 @@
+18:15:24 **** Incremental Build of configuration Debug for project Q14_UART_TX_RX_Q1 ****
+make -j12 all 
+arm-none-eabi-size   Q14_UART_TX_RX_Q1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12088	     20	   1644	  13752	   35b8	Q14_UART_TX_RX_Q1.elf
+Finished building: default.size.stdout
+ 
+
+18:15:25 Build Finished. 0 errors, 0 warnings. (took 172ms)
+

@@ -1,0 +1,10 @@
+20:36:40 **** Incremental Build of configuration Debug for project RTOS_Printf ****
+make -j12 all 
+arm-none-eabi-size   RTOS_Printf.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15920	    128	  78760	  94808	  17258	RTOS_Printf.elf
+Finished building: default.size.stdout
+ 
+
+20:36:40 Build Finished. 0 errors, 0 warnings. (took 180ms)
+

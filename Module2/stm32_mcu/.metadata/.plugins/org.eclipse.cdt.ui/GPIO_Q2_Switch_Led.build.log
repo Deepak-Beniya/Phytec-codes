@@ -1,0 +1,10 @@
+13:20:07 **** Incremental Build of configuration Debug for project GPIO_Q2_Switch_Led ****
+make -j12 all 
+arm-none-eabi-size   GPIO_Q2_Switch_Led.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1020	     12	   1572	   2604	    a2c	GPIO_Q2_Switch_Led.elf
+Finished building: default.size.stdout
+ 
+
+13:20:07 Build Finished. 0 errors, 0 warnings. (took 175ms)
+

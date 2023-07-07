@@ -1,0 +1,10 @@
+13:10:12 **** Incremental Build of configuration Debug for project RTOS_Segger ****
+make -j12 all 
+arm-none-eabi-size   RTOS_Segger.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24584	    128	  84512	 109224	  1aaa8	RTOS_Segger.elf
+Finished building: default.size.stdout
+ 
+
+13:10:12 Build Finished. 0 errors, 0 warnings. (took 227ms)
+

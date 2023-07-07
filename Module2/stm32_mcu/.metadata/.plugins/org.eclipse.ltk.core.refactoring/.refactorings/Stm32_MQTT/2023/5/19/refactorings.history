@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Stm32_MQTT/Core/src&apos; to &apos;mqtt&apos;" description="Rename resource &apos;src&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/src" name="mqtt" stamp="1683636692820" updateReferences="true"/>
+</session>

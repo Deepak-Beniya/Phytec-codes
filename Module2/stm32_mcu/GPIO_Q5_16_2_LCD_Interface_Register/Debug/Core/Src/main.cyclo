@@ -1,0 +1,7 @@
+main.c:16:6:delay_ms	1
+main.c:21:6:print	9
+main.c:61:6:lcd_cmd	1
+main.c:71:8:lcd_data	1
+main.c:81:8:lcd_init	1
+main.c:91:8:lcd_display	2
+main.c:99:7:main	1

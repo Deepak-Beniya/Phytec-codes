@@ -1,0 +1,38 @@
+/*
+ * Application : Diplay from 0 to 1 in 7 segment Display Common Anode using Register Programming
+ * Step 1:Write the function for all 0 to 9
+ * Step 2:call them in sequential from 0 to 9
+ * Step 3: give some delay
+ * Author : Deepak
+ * Date : 15/04/23
+
+ */
+
+#include "main.h"
+
+void EXTI15_10_IRQHandler(void)
+{
+	GPIOA->ODR ^= 0X20;
+	for(int i=0;i<1000000;i++);
+	EXTI->PR |=0X2000;  //clear
+}
+
+
+
+int main()
+{
+	__disable_irq(); //At first We are Disa
+	RCC->AHB1ENR  |= 0X5;
+	GPIOA->MODER |= 0x400; //Enabeling port A,C
+	SYSCFG->EXTICR[3] |=0x20;
+	EXTI->IMR |=0X2000; //Step 3
+	EXTI->FTSR |=0X2000;//Step 4
+ 	NVIC_EnableIRQ(EXTI15_10_IRQn); //Step 5
+
+	//RCC->APB2ENR |=0X400;
+	__enable_irq();
+	while(1){}
+
+
+
+}

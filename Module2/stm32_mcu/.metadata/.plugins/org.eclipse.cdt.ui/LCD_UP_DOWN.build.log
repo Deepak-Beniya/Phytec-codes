@@ -1,0 +1,10 @@
+20:06:43 **** Incremental Build of configuration Debug for project LCD_UP_DOWN ****
+make -j12 all 
+arm-none-eabi-size   LCD_UP_DOWN.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12372	    128	   1728	  14228	   3794	LCD_UP_DOWN.elf
+Finished building: default.size.stdout
+ 
+
+20:06:44 Build Finished. 0 errors, 0 warnings. (took 167ms)
+

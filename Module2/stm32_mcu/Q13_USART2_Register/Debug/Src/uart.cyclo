@@ -1,0 +1,4 @@
+uart.c:46:6:delay	3
+uart.c:64:6:UART2_Init	1
+uart.c:79:5:__io_putchar	1
+uart.c:84:6:Usart2_Transmit	2

@@ -1,0 +1,10 @@
+15:52:35 **** Incremental Build of configuration Debug for project Q13_USART2_Register ****
+make -j12 all 
+arm-none-eabi-size   Q13_USART2_Register.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3984	    140	   1588	   5712	   1650	Q13_USART2_Register.elf
+Finished building: default.size.stdout
+ 
+
+15:52:35 Build Finished. 0 errors, 0 warnings. (took 231ms)
+

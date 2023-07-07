@@ -1,0 +1,9 @@
+core_cm4.h:2064:26:ITM_SendChar	4
+main.c:27:6:Led_Toggle	2
+main.c:38:6:Led_External	2
+main.c:90:5:main	10
+main.c:194:6:SystemClock_Config	3
+main.c:242:13:MX_USART2_UART_Init	2
+main.c:269:5:_write	2
+main.c:287:13:MX_GPIO_Init	1
+main.c:327:6:Error_Handler	1

@@ -1,0 +1,10 @@
+21:08:13 **** Incremental Build of configuration Debug for project Q15_3LED ****
+make -j12 all 
+arm-none-eabi-size   Q15_3LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8708	     20	   1636	  10364	   287c	Q15_3LED.elf
+Finished building: default.size.stdout
+ 
+
+21:08:14 Build Finished. 0 errors, 0 warnings. (took 202ms)
+

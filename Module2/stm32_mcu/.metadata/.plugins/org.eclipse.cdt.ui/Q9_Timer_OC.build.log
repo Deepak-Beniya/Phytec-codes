@@ -1,0 +1,10 @@
+16:34:51 **** Incremental Build of configuration Debug for project Q9_Timer_OC ****
+make -j12 all 
+arm-none-eabi-size   Q9_Timer_OC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11076	     20	   1644	  12740	   31c4	Q9_Timer_OC.elf
+Finished building: default.size.stdout
+ 
+
+16:34:51 Build Finished. 0 errors, 0 warnings. (took 174ms)
+

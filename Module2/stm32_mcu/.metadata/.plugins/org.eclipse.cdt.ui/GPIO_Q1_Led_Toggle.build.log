@@ -1,0 +1,17 @@
+12:20:58 **** Incremental Build of configuration Debug for project GPIO_Q1_Led_Toggle ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "GPIO_Q1_Led_Toggle.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/GPIO_Q1_Led_Toggle/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GPIO_Q1_Led_Toggle.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GPIO_Q1_Led_Toggle.elf
+ 
+arm-none-eabi-size   GPIO_Q1_Led_Toggle.elf 
+arm-none-eabi-objdump -h -S  GPIO_Q1_Led_Toggle.elf  > "GPIO_Q1_Led_Toggle.list"
+   text	   data	    bss	    dec	    hex	filename
+   1128	     12	   1572	   2712	    a98	GPIO_Q1_Led_Toggle.elf
+Finished building: default.size.stdout
+ 
+Finished building: GPIO_Q1_Led_Toggle.list
+ 
+
+12:20:58 Build Finished. 0 errors, 0 warnings. (took 322ms)
+

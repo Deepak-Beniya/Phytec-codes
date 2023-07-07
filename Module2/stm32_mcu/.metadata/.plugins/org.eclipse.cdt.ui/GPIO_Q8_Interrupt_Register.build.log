@@ -1,0 +1,10 @@
+13:20:28 **** Incremental Build of configuration Debug for project GPIO_Q8_Interrupt_Register ****
+make -j12 all 
+arm-none-eabi-size   GPIO_Q8_Interrupt_Register.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1096	     12	   1572	   2680	    a78	GPIO_Q8_Interrupt_Register.elf
+Finished building: default.size.stdout
+ 
+
+13:20:28 Build Finished. 0 errors, 0 warnings. (took 176ms)
+

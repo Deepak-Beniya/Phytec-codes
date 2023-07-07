@@ -1,0 +1,10 @@
+11:17:52 **** Incremental Build of configuration Debug for project GPIO_Q2_BSRR ****
+make -j12 all 
+arm-none-eabi-size   GPIO_Q2_BSRR.elf 
+   text	   data	    bss	    dec	    hex	filename
+    988	     12	   1572	   2572	    a0c	GPIO_Q2_BSRR.elf
+Finished building: default.size.stdout
+ 
+
+11:17:52 Build Finished. 0 errors, 0 warnings. (took 169ms)
+

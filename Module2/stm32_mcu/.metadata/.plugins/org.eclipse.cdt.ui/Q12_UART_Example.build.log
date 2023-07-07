@@ -1,0 +1,10 @@
+17:49:47 **** Incremental Build of configuration Debug for project Q12_UART_Example ****
+make -j12 all 
+arm-none-eabi-size   Q12_UART_Example.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11660	     24	   1640	  13324	   340c	Q12_UART_Example.elf
+Finished building: default.size.stdout
+ 
+
+17:49:47 Build Finished. 0 errors, 0 warnings. (took 173ms)
+

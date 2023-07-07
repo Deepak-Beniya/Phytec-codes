@@ -1,0 +1,22 @@
+20:21:35 **** Incremental Build of configuration Debug for project P1_Hello_World2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/P1_Hello_World2/Third_Party/FreeRTOS/Config" -I"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/P1_Hello_World2/Third_Party/FreeRTOS/include" -I"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/P1_Hello_World2/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/P1_Hello_World2/Third_Party/FreeRTOS/Config" -I"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/P1_Hello_World2/Third_Party/FreeRTOS/include" -I"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/P1_Hello_World2/Third_Party/FreeRTOS/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:82:18: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+   82 |       BaseType_t status;
+      |                  ^~~~~~
+arm-none-eabi-gcc -o "P1_Hello_World2.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/P1_Hello_World2/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="P1_Hello_World2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: P1_Hello_World2.elf
+ 
+arm-none-eabi-size   P1_Hello_World2.elf 
+arm-none-eabi-objdump -h -S  P1_Hello_World2.elf  > "P1_Hello_World2.list"
+   text	   data	    bss	    dec	    hex	filename
+  15920	    128	  78760	  94808	  17258	P1_Hello_World2.elf
+Finished building: default.size.stdout
+ 
+Finished building: P1_Hello_World2.list
+ 
+
+20:21:35 Build Finished. 0 errors, 1 warnings. (took 377ms)
+

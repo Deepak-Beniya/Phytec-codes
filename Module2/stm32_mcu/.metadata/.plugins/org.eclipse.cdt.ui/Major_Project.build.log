@@ -1,0 +1,63 @@
+21:06:54 **** Incremental Build of configuration Debug for project Major_Project ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:66:1: warning: data definition has no type or storage class
+   66 | SSD1306_Init ();
+      | ^~~~~~~~~~~~
+../Core/Src/main.c:66:1: warning: type defaults to 'int' in declaration of 'SSD1306_Init' [-Wimplicit-int]
+../Core/Src/main.c:66:1: error: conflicting types for 'SSD1306_Init'
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/ssd1306.h:90:9: note: previous declaration of 'SSD1306_Init' was here
+   90 | uint8_t SSD1306_Init(void);
+      |         ^~~~~~~~~~~~
+../Core/Src/main.c:67:17: error: expected declaration specifiers or '...' before numeric constant
+   67 | SSD1306_GotoXY (10,10); // goto 10, 10
+      |                 ^~
+../Core/Src/main.c:67:20: error: expected declaration specifiers or '...' before numeric constant
+   67 | SSD1306_GotoXY (10,10); // goto 10, 10
+      |                    ^~
+../Core/Src/main.c:68:17: error: expected declaration specifiers or '...' before string constant
+   68 |   SSD1306_Puts ("Deepak", &Font_11x18, 1); // print Hello
+      |                 ^~~~~~~~
+../Core/Src/main.c:68:27: error: expected declaration specifiers or '...' before '&' token
+   68 |   SSD1306_Puts ("Deepak", &Font_11x18, 1); // print Hello
+      |                           ^
+../Core/Src/main.c:68:40: error: expected declaration specifiers or '...' before numeric constant
+   68 |   SSD1306_Puts ("Deepak", &Font_11x18, 1); // print Hello
+      |                                        ^
+../Core/Src/main.c:69:19: error: expected declaration specifiers or '...' before numeric constant
+   69 |   SSD1306_GotoXY (10, 30);
+      |                   ^~
+../Core/Src/main.c:69:23: error: expected declaration specifiers or '...' before numeric constant
+   69 |   SSD1306_GotoXY (10, 30);
+      |                       ^~
+../Core/Src/main.c:70:17: error: expected declaration specifiers or '...' before string constant
+   70 |   SSD1306_Puts ("Beniya :) ", &Font_11x18, 1);
+      |                 ^~~~~~~~~~~~
+../Core/Src/main.c:70:31: error: expected declaration specifiers or '...' before '&' token
+   70 |   SSD1306_Puts ("Beniya :) ", &Font_11x18, 1);
+      |                               ^
+../Core/Src/main.c:70:44: error: expected declaration specifiers or '...' before numeric constant
+   70 |   SSD1306_Puts ("Beniya :) ", &Font_11x18, 1);
+      |                                            ^
+../Core/Src/main.c:71:3: warning: data definition has no type or storage class
+   71 |   SSD1306_UpdateScreen(); // update screen
+      |   ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:71:3: warning: type defaults to 'int' in declaration of 'SSD1306_UpdateScreen' [-Wimplicit-int]
+../Core/Src/main.c:71:3: error: conflicting types for 'SSD1306_UpdateScreen'
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/ssd1306.h:98:6: note: previous declaration of 'SSD1306_UpdateScreen' was here
+   98 | void SSD1306_UpdateScreen(void);
+      |      ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:7: warning: implicit declaration of function 'lcd_cmd' [-Wimplicit-function-declaration]
+  122 |       lcd_cmd(0x07);
+      |       ^~~~~~~
+../Core/Src/main.c:123:7: warning: implicit declaration of function 'lcd_display' [-Wimplicit-function-declaration]
+  123 |       lcd_display("1",1);
+      |       ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+21:06:54 Build Failed. 13 errors, 6 warnings. (took 331ms)
+

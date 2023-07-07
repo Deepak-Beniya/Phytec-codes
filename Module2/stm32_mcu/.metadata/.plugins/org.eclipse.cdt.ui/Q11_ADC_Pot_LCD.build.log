@@ -1,0 +1,10 @@
+19:04:29 **** Incremental Build of configuration Debug for project Q11_ADC_Pot_LCD ****
+make -j12 all 
+arm-none-eabi-size   Q11_ADC_Pot_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12468	    120	   1680	  14268	   37bc	Q11_ADC_Pot_LCD.elf
+Finished building: default.size.stdout
+ 
+
+19:04:29 Build Finished. 0 errors, 0 warnings. (took 175ms)
+

@@ -1,0 +1,19 @@
+11:58:02 **** Incremental Build of configuration Debug for project Q13_UART_Register ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c:14:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   14 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+../Src/main.c: In function 'main':
+../Src/main.c:46:8: error: 'portaSR' undeclared (first use in this function)
+   46 |  while(portaSR & 0x80){
+      |        ^~~~~~~
+../Src/main.c:46:8: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:48:3: error: 'portaDR1' undeclared (first use in this function)
+   48 |   portaDR1 = dat & 0xff;
+      |   ^~~~~~~~
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+11:58:02 Build Failed. 3 errors, 1 warnings. (took 175ms)
+

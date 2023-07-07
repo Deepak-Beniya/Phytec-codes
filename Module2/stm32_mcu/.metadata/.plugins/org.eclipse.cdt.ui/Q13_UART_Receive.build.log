@@ -1,0 +1,10 @@
+11:38:24 **** Incremental Build of configuration Debug for project Q13_UART_Receive ****
+make -j12 all 
+arm-none-eabi-size   Q13_UART_Receive.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11804	     20	   1652	  13476	   34a4	Q13_UART_Receive.elf
+Finished building: default.size.stdout
+ 
+
+11:38:25 Build Finished. 0 errors, 0 warnings. (took 415ms)
+

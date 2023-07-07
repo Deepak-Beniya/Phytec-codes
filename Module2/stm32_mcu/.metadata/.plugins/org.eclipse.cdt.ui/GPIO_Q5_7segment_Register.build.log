@@ -1,0 +1,10 @@
+19:12:35 **** Incremental Build of configuration Debug for project GPIO_Q5_7segment_Register ****
+make -j12 all 
+arm-none-eabi-size   GPIO_Q5_7segment_Register.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1088	     12	   1572	   2672	    a70	GPIO_Q5_7segment_Register.elf
+Finished building: default.size.stdout
+ 
+
+19:12:35 Build Finished. 0 errors, 0 warnings. (took 174ms)
+

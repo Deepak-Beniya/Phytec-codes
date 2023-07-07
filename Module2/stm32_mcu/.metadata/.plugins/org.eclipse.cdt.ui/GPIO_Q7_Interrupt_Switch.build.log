@@ -1,0 +1,10 @@
+15:14:36 **** Incremental Build of configuration Debug for project GPIO_Q7_Interrupt_Switch ****
+make -j12 all 
+arm-none-eabi-size   GPIO_Q7_Interrupt_Switch.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7036	     20	   1572	   8628	   21b4	GPIO_Q7_Interrupt_Switch.elf
+Finished building: default.size.stdout
+ 
+
+15:14:36 Build Finished. 0 errors, 0 warnings. (took 117ms)
+

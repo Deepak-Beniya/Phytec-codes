@@ -1,0 +1,10 @@
+16:58:47 **** Incremental Build of configuration Debug for project Q13_Realay_Interface ****
+make -j12 all 
+arm-none-eabi-size   Q13_Realay_Interface.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6920	     20	   1572	   8512	   2140	Q13_Realay_Interface.elf
+Finished building: default.size.stdout
+ 
+
+16:58:47 Build Finished. 0 errors, 0 warnings. (took 515ms)
+

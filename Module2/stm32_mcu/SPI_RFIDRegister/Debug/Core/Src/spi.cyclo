@@ -1,0 +1,3 @@
+spi.c:7:6:SPI_Init	1
+spi.c:25:8:SPI_Transmit	10
+spi.c:51:8:SPI_Receive	4

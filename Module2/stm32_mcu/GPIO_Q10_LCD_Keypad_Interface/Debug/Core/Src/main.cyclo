@@ -1,0 +1,7 @@
+core_cm4.h:2064:26:ITM_SendChar	4
+main.c:67:5:main	17
+main.c:268:27:_write	2
+main.c:285:6:SystemClock_Config	3
+main.c:333:13:MX_USART2_UART_Init	2
+main.c:366:13:MX_GPIO_Init	1
+main.c:441:6:Error_Handler	1

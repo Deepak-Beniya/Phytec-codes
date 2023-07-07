@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="org.eclipse.text.quicksearch.internal.ui.QuickSearchDialog.DIALOG_SETTINGS">
+		<item key="LAST_QUERY" value="uint_t"/>
+		<item key="PATH_FILTER" value=""/>
+		<item key="CASE_SENSITIVE" value="true"/>
+		<item key="KEEP_OPEN" value="false"/>
+		<list key="COLUMN_WIDTHS">
+			<item value="40"/>
+			<item value="400"/>
+			<item value="128"/>
+		</list>
+		<list key="SASH_WEIGHTS">
+			<item value="906"/>
+			<item value="82"/>
+		</list>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="478"/>
+			<item key="DIALOG_Y_ORIGIN" value="99"/>
+			<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+		</section>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/AHT25_I2C_Hal"/>
+			<item value="/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/FreeRTOS"/>
+			<item value="/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/P1_Hello_World"/>
+			<item value="/home/vasundhra/deepak/Workspace/Module2/OLED_LCD_Interface"/>
+			<item value="/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/OLED_keypad"/>
+			<item value="/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/Major"/>
+			<item value="/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/RTC_Internal"/>
+			<item value="/home/vasundhra/deepak/Workspace/Module2/stm32_mcu/RTC_LCD"/>
+			<item value="/home/vasundhra/deepak/Workspace/Module2/stm32_mcu"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="569"/>
+		<item key="DIALOG_Y_ORIGIN" value="310"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

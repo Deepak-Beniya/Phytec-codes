@@ -1,0 +1,9 @@
+heap_4.c:138:8:pvPortMalloc	14
+heap_4.c:290:6:vPortFree	6
+heap_4.c:343:8:xPortGetFreeHeapSize	1
+heap_4.c:349:8:xPortGetMinimumEverFreeHeapSize	1
+heap_4.c:355:6:vPortInitialiseBlocks	1
+heap_4.c:361:8:pvPortCalloc	5
+heap_4.c:380:13:prvHeapInit	2
+heap_4.c:425:13:prvInsertBlockIntoFreeList	6
+heap_4.c:488:6:vPortGetHeapStats	5
