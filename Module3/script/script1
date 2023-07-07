@@ -1,0 +1,10 @@
+#!/bin/bash
+
+name=Deepak
+age=23
+sex=male
+
+echo "Hi I am ${name}"
+echo "My age is ${age}"
+echo "My sex is ${sex}"
+exit 0

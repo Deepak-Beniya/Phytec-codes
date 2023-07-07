@@ -1,0 +1,13 @@
+#include<stdio.h>
+       #include <sys/types.h>
+       #include <unistd.h>
+
+int main()
+{
+  printf("Hello fork \n");
+  printf("My process ID is : %d ",getppid());
+  printf("Fork process ID : %d ",getpid());
+  fork();
+  printf("hi fork \n");
+ getchar(); 
+}
